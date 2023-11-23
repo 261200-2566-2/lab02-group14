@@ -2,20 +2,18 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        AirPurifier A = new AirPurifier("pro","11");
-        AirPurifier b = new AirPurifier("S-pro","79");
-        AirPurifier c = new AirPurifier("S-pro","555");
-        System.out.println("This Airpurifier Model is : " + A.model);
-        System.out.println(A.fanspeed);
-        System.out.println(A.power);
-        A.turnOn();
-        System.out.println(A.power);
-        A.turnOff();
-        System.out.println(A.power);
-        System.out.println( AirPurifier.getModelCount());
-        System.out.println(A.fanspeed);
-        System.out.println( AirPurifier.mostPopularModel());
+        // Press Alt+Enter with your caret at the highlighted text to see how
+        // IntelliJ IDEA suggests fixing it.
+        System.out.print("Hello and welcome!");
+
+        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
+        for (int i = 1; i <= 5; i++) {
+
+            // Press Shift+F9 to start debugging your code. We have set one breakpoint
+            // for you, but you can always add more by pressing Ctrl+F8.
+            System.out.println("i = " + i);
         }
     }
+}
 
 
