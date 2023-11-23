@@ -2,8 +2,9 @@ instance variables
     model
     serialNo
     power
-    certified
     fanspeed
+    certified
+
 
 instance methods
     turnOn() = output : change Boolean power

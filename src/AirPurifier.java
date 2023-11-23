@@ -5,8 +5,8 @@ public class AirPurifier {
         String model;
         String serialNo;
         boolean power;
-        boolean certified = true;
         int fanspeed;
+        boolean certified = true;
 
     static int modelCount = 0;
     static HashMap<String, Integer> modelOccur = new HashMap<>();
