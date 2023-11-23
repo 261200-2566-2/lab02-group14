@@ -1,0 +1,22 @@
+instance variables
+    model
+    serialNo
+    power
+    fanspeed
+    certified
+
+
+instance methods
+    turnOn() = output : change Boolean power
+    turnOff() = output : change Boolean power
+    getFanSpeed() = output : int fanspeed
+    setFanSpeed() = input : int -> output : int fanspeed
+
+class variables
+    modelCount
+    modelOccur
+
+
+class methods
+    getModelCount() = output : modelCount
+    mostPopularModel() = output : model
